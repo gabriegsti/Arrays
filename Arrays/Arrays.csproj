@@ -43,6 +43,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\AutenticacaoHelper.cs" />
+    <Compile Include="Model\Auxiliar.cs" />
+    <Compile Include="Model\ClasseTeste.cs" />
+    <Compile Include="Model\Cliente.cs" />
+    <Compile Include="Model\ContaCorrente.cs" />
+    <Compile Include="Model\Desenvolvedor.cs" />
+    <Compile Include="Model\Designer.cs" />
+    <Compile Include="Model\ExtratorValordeArgumentosURL.cs" />
+    <Compile Include="Model\Funcionario.cs" />
+    <Compile Include="Model\FuncionarioAutenticavel.cs" />
+    <Compile Include="Model\GerenciadorBonificacao.cs" />
+    <Compile Include="Model\GerenteDeConta.cs" />
+    <Compile Include="Model\IAutenticavel.cs" />
+    <Compile Include="Model\ListaDeContaCorrente.cs" />
+    <Compile Include="Model\OperacaoFinanceiraException.cs" />
+    <Compile Include="Model\ParceiroComercial.cs" />
+    <Compile Include="Model\SaldoInsuficienteException.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
